@@ -1,0 +1,17 @@
+html {
+  background-color: blue;
+}
+
+h1#txt {
+  color: white;
+  font-weight: bolder;
+}
+
+button#b {
+border: none;
+}
+
+label#l {
+  color: white;
+  font-weight: bold;
+}

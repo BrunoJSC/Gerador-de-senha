@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeiro projeto </title>
+  
+  <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+  <div>
+    <h1 id="txt">Gerador de senha</h1>
+
+    <div>
+      <label id="l">Qual tamanho da senha</label>
+      <input type="number" id="pass" min="0" max="15">
+      <button onclick="generatePass()" id="b">Gerar senha</button>
+    </div>
+    <div>
+      <span id="newPassword"></span>
+    </div>
+  </div>
+</body>
+
+<script src="./src/scripts.js"></script>
+</html>
